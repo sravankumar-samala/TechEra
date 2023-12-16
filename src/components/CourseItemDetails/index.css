@@ -1,0 +1,22 @@
+.course-item-details-container {
+  padding: 1em;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  align-items: center;
+}
+.course-details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* align-items: center; */
+}
+.course-content {
+  padding-inline: 1.5em;
+}
+.course-content h2 {
+  color: #1e293b;
+  font-size: clamp(1.5rem, 2.5vw, 2.7rem);
+}
+.course-content p {
+  color: #475569;
+  font-size: clamp(1rem, 1.5vw, 2.3rem);
+}
